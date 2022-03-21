@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    /* width:1421px;
+    height:426px; */
+    background-color:#FFF;
+}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+
+ul {
+    list-style:none;
+}
+
+

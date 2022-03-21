@@ -1,0 +1,46 @@
+.moldura ul {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    width: auto;
+    height:689px;
+}
+.moldura .image {
+    position:relative;
+    width:335px;
+    height:430px;
+    margin:129px 11px;
+    background-size:cover;
+    
+    
+}
+
+.quadro-1 {
+    background:url(../imagens/1.jpg) center center no-repeat;
+}
+.quadro-2 {
+    background:url(../imagens/2.jpg) center center no-repeat;
+}
+.quadro-3 {
+    background:url(../imagens/3.jpg) center center no-repeat;
+}
+.quadro-4 {
+    background:url(../imagens/4.jpg) center center no-repeat;
+}
+
+.moldura .info {
+    position:absolute;
+    color:#FFF;
+    bottom:40px;
+    left:20px;
+    line-height:20px;
+}
+.info h2 {
+    font-weight: 700;
+    font-size:3rem;
+}
+.info p {
+    font-weight:300;
+    font-size:1.7rem;
+    margin-top:10px;
+}

@@ -1,0 +1,13 @@
+@media(max-width:1034px) {
+    .moldura ul {
+        display:block;
+        justify-content: center;
+        margin:45px 20px;
+    }
+
+    .moldura .image {
+        display:block;
+        justify-content: center;
+        margin:0 auto;
+    }
+}
