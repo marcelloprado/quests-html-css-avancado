@@ -1,0 +1,81 @@
+
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 'video-principal propaganda'
+                         'video-principal videos-secundarios';
+    width:900px;
+    height:415px;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-principal {    
+    grid-area:video-principal;
+}
+.video-principal a {
+    background-color:#C4C4C4;
+}
+
+.video-principal .informacoes{
+    margin:12px 0;
+}
+.video-principal .informacoes .titulo {
+    margin-bottom:7px;
+    font-weight:700;
+    font-size:18px;
+}
+.video-principal .informacoes .visualizacoes {
+    margin-bottom:9px;
+    font-weight:300;
+    font-size:14px;
+}
+.video-principal .informacoes .texto {
+    margin-bottom:24px;
+    font-weight:300;
+    font-size:16px;
+}
+
+.propaganda {
+    grid-area:propaganda;
+    display:flex;
+    height:56px;
+    align-items: center;
+    justify-content: center;
+    /* padding:22px 116px 21px 92px; */
+    background-color: #C4C4C4;
+}
+
+.videos-segundarios {
+    grid-area:videos-secundarios;
+    
+    
+}
+.videos-segundarios .sugerido {
+    display:flex;
+    
+}
+.videos-segundarios .sugerido .video-1, .video-2,.video-3  {
+    display:grid;
+    /* width:100%;
+    height:100%; */
+    margin:10px;
+    
+    
+}
+.videos-segundarios .conteudo .titulo {
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:7px;
+}
+
+.videos-segundarios .sugerido .conteudo .autor, .visualizacoes, .data {
+    font-size:11px;
+    font-weight:300;
+    margin:5px;
+}
+
