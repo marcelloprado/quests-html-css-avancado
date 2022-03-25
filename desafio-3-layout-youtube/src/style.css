@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 56px 1fr;
     grid-template-areas: 'video-principal propaganda'
                          'video-principal videos-secundarios';
     width:900px;
@@ -71,6 +71,7 @@
     font-size:14px;
     font-weight:700;
     margin-bottom:7px;
+    margin-top:10px;
 }
 
 .videos-segundarios .sugerido .conteudo .autor, .visualizacoes, .data {
