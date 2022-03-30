@@ -1,0 +1,49 @@
+@media(max-width:937px) {
+    .header {
+        flex-direction:column;
+    }
+    
+    .logo {
+        width:100%;
+        margin-top:47px;
+        justify-content:center;
+
+    }
+    .logo h1 {
+        font-size:4rem;
+        text-align:center;
+        margin-top:47px;
+        margin-right:140px;
+    }
+    .logo img {
+        margin-top:47px;
+        justify-content: center;
+        text-align:center;
+        margin-left: 76px;
+        
+    }
+
+    nav {
+        width:100%;
+        text-align: center;
+    }
+    
+    .menu {
+       flex-direction:column;
+       margin-top:5rem;
+    }
+    .menu li {
+        padding:33px 0;
+        font-size:4rem;
+        
+    }
+    .menu li a:hover {
+            padding:17px 38px 17px 41px; 
+    }
+
+    .menu .btn {
+        font-size:18px;
+        padding:15px 23px;
+    }
+   
+}
